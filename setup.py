@@ -14,7 +14,7 @@ readme = open('README.md').read()
 
 setup(
    name='dreem',
-   version="0.2.0,
+   version="0.2.0",
    license="MIT",
    description='Yves Martin\', Scott Grote\'s and Matty Allan\'s implementation of Prof. Silvi Rouskin\'s DREEM',
    author='Yves Martin des Taillades',
