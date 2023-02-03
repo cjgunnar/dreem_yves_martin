@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from dreem import __version__
 import sys
 
 with open('requirements.txt') as f:
@@ -15,7 +14,7 @@ readme = open('README.md').read()
 
 setup(
    name='dreem',
-   version=__version__,
+   version="0.2.0,
    license="MIT",
    description='Yves Martin\', Scott Grote\'s and Matty Allan\'s implementation of Prof. Silvi Rouskin\'s DREEM',
    author='Yves Martin des Taillades',
