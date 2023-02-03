@@ -36,14 +36,14 @@ setup(
    ],
    include_package_data=True,
    install_requires=requirements, #external packages as dependencies
-    entry_points = {
-    'console_scripts' : [
-        'dreem = dreem.cli : cli', 
-        'dreem-demultiplexing = dreem.demultiplexing.cli : cli',  
-        'dreem-alignment = dreem.alignment.cli : cli',
-        'dreem-vectoring = dreem.vectoring.cli : cli',
-        'dreem-clustering = dreem.clustering.cli : cli',
-        'dreem-aggregate = dreem.aggregate.cli : cli',
-    ]
-}
+#     entry_points = {
+#     'console_scripts' : [
+#         'dreem = dreem.cli : cli', 
+#         'dreem-demultiplexing = dreem.demultiplexing.cli : cli',  
+#         'dreem-alignment = dreem.alignment.cli : cli',
+#         'dreem-vectoring = dreem.vectoring.cli : cli',
+#         'dreem-clustering = dreem.clustering.cli : cli',
+#         'dreem-aggregate = dreem.aggregate.cli : cli',
+#     ]
+# }
 )
